@@ -12,47 +12,57 @@
 </head>
 <body>
   
-  <main class="card row">
-    <div class="card__img">
-      <picture>
-        <source media="(max-width: 1139px)" srcset="./images/image-header-mobile.jpg">
-        <source media="(min-width: 1140px)" srcset="./images/image-header-desktop.jpg">
-        <img src="./images/image-header-mobile.jpg" alt="">  
-      </picture>
+  <main>
+    <div class="card row">
+
+      <div class="card__img">
+        <picture>
+          <source media="(max-width: 1139px)" srcset="./images/image-header-mobile.jpg">
+          <source media="(min-width: 1140px)" srcset="./images/image-header-desktop.jpg">
+          <img src="./images/image-header-mobile.jpg" alt="">  
+        </picture>
+      </div>
+  
+      <div class="card__content">        
+        <div>
+          <h1 class="card__title">Get <span>insights</span> that help your business grow.</h1>
+        
+          <p class="card__content-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p>        
+        </div>
+  
+        <div class="card__content-bullets row">
+          <div class="bullet">
+            <ul>
+              <li>10k+</li>
+              <li>compagnies</li>
+            </ul>
+          </div>
+          <div class="bullet">
+            <ul>
+              <li>314</li>
+              <li>templates</li>
+            </ul>
+          </div>
+          <div class="bullet">
+            <ul>
+              <li>12M+</li>
+              <li>queries</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="card__content">
-      
-      <div>
-        <h1 class="card__title">Get <span>insights</span> that help your business grow.</h1>
-      
-        <p class="card__content-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-          experience, and overall efficiency.</p>        
-      </div>
-
-      <div class="card__content-bullets row">
-        <div class="bullet">
-          <span>10k+</span>
-          <span>companies</span>
-        </div>
-        <div class="bullet">
-          <span>314</span>
-          <span>templates</span>
-        </div>
-        <div class="bullet">
-          <span>12M+</span>
-          <span>queries</span>
-        </div>
-      </div>
-
+    
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Benjoow</a>.</p>
     </div>
 
   </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Benjoow</a>.
-  </div>
 
 </body>
 </html>
